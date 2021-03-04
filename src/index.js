@@ -6,8 +6,6 @@ import RootScreen from "./containers/Root";
 import configureStore from '@lib/configureStore'
 
 import {
-  DarkTheme,
-  DefaultTheme,
   NavigationContainer,
 } from "@react-navigation/native";
 
