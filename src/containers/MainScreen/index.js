@@ -11,10 +11,8 @@ import { PopUpBlocker } from "components";
 import { StyledText } from "components";
 
 //
-import { Container, Body, Input, Item, Icon, Spinner, Button, Text} from 'native-base';
+import { Container, Body, Item, Icon, Button, Text} from 'native-base';
 import { Overlay } from 'react-native-elements';
-import UserInactivity from "react-native-user-inactivity";
-import BackgroundTimer from "react-native-user-inactivity/lib/BackgroundTimer";
 
 
 import { scale } from "utils/scale";
