@@ -1,5 +1,5 @@
 /**
- * # authActions.js
+ * # productActions.js
  *
  * All the request actions have 3 variations, the request, a success
  * and a failure. They all follow the pattern that the request will
@@ -88,9 +88,4 @@ export function selectProduct(data) {
   return dispatch => {
     dispatch(onProductFormFieldChange("selectedProduct",data))
   }
-}
-
-
-export function sum(a, b) {
-  return a + b;
 }
