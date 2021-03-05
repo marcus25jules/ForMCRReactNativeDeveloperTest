@@ -69,7 +69,7 @@ const ProductListScreen = (props) => {
                   data = {productList}
                   actionProps = {props}
                   onActionPress={(item) => {
-                    actions.setProducts(item);
+                    actions.selectProduct(item);
                     props.navigation.navigate("MainScreen", { ...item })
                   }
                 }
